@@ -87,7 +87,7 @@
 
 <style lang="postcss">
 	.background-image {
-		background-image: url('/images/image_about.jpg');
+		background-image: url('/images/image_about.webp');
 		background-position: center;
 		background-size: cover;
 	}
