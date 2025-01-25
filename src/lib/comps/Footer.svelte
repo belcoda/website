@@ -18,7 +18,11 @@
 						</a>
 						<div class="-m-1.5 flex flex-wrap">
 							<div class="w-auto p-1.5">
-								<a href="https://github.com/belcoda/core" target="_blank">
+								<a
+									href="https://github.com/belcoda/core"
+									target="_blank"
+									aria-label="Link to GitHub repository"
+								>
 									<div
 										class="flex h-9 w-9 items-center justify-center rounded-full border border-gray-800 text-gray-300 hover:border-gray-900 hover:text-gray-100"
 									>
@@ -41,7 +45,11 @@
 								</a>
 							</div>
 							<div class="w-auto p-1.5">
-								<a href="https://discord.gg/q7xPnzvswy" target="_blank">
+								<a
+									href="https://discord.gg/q7xPnzvswy"
+									target="_blank"
+									aria-label="Join us on Discord"
+								>
 									<div
 										class="flex h-9 w-9 items-center justify-center rounded-full border border-gray-800 text-gray-300 hover:border-gray-900 hover:text-gray-100"
 									>
