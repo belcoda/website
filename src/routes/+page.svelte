@@ -13,10 +13,10 @@
 	<title>Belcoda - Software for social change</title>
 </svelte:head>
 
-{#if topSectionInViewport.current !== true}<Nav />{/if}
+<Nav hideBackground={topSectionInViewport.current} />
 <section
 	bind:this={topSection}
-	class="background-learning flex min-h-screen items-center justify-center bg-slate-800 bg-cover bg-center md:bg-center"
+	class="background-learning flex min-h-screen items-center justify-center bg-gray-900 bg-cover bg-center md:bg-center"
 >
 	<div class="container mx-auto px-4 text-center">
 		<div class="mx-auto -mt-8 max-w-4xl">
