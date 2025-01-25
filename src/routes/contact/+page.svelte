@@ -20,10 +20,10 @@
 		method="POST"
 		class="mx-auto mt-6 max-w-xl sm:mt-8"
 		action="/contact/success"
-		netlify-honeypot="bot-field"
+		data-netlify-honeypot="bot-field"
 		data-netlify="true"
 	>
-		<input type="hidden" name="form-name" value="belcoda-homepage-contact" />
+		<!-- <input type="hidden" name="form-name" value="belcoda-homepage-contact" /> -->
 		<div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
 			<div class="sm:col-span-2">
 				<label for="name" class="block text-sm/6 font-semibold text-gray-700">Name</label>
