@@ -2,7 +2,14 @@
 	import Nav from '$lib/comps/Nav.svelte';
 	import { IsInViewport } from 'runed';
 	let topSection = $state<HTMLElement>()!;
+	import { fade } from 'svelte/transition';
+	import { onMount } from 'svelte';
 	const topSectionInViewport = new IsInViewport(() => topSection);
+	let showNav = $state(false);
+	onMount(() => {
+		setTimeout(() => (showNav = true), 300);
+	});
+
 	let contentSection = $state<HTMLElement>();
 	import HeartHandshake from 'lucide-svelte/icons/heart-handshake';
 	import HandCoins from 'lucide-svelte/icons/hand-coins';
@@ -13,7 +20,9 @@
 	<title>Belcoda - Software for social change</title>
 </svelte:head>
 
-<Nav hideBackground={topSectionInViewport.current} />
+{#if showNav}<div transition:fade={{ duration: 300 }}>
+		<Nav hideBackground={topSectionInViewport.current} />
+	</div>{/if}
 <section
 	bind:this={topSection}
 	class="background-learning flex min-h-screen items-center justify-center bg-gray-900 bg-cover bg-center md:bg-center"

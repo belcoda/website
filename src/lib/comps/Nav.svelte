@@ -2,7 +2,7 @@
 	import { onClickOutside } from 'runed';
 	import { fade, fly } from 'svelte/transition';
 	let mobileNavOpen: boolean = $state(false);
-	let { hideBackground }: { hideBackground?: boolean } = $props();
+	let { hideBackground = false }: { hideBackground?: boolean } = $props();
 	let container = $state<HTMLElement>();
 	onClickOutside(
 		() => container,
@@ -14,8 +14,8 @@
 
 <section>
 	<nav
+		class:bg-gray-900={hideBackground === false}
 		class="fixed inset-x-0 top-0 z-10 px-4 py-3.5 transition-colors duration-300 ease-in-out lg:px-10"
-		class:bg-gray-900={!hideBackground}
 	>
 		<div class="flex items-center justify-between">
 			<a
