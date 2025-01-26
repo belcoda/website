@@ -6,5 +6,5 @@
 
 <main class="relative">
 	{@render children()}
-	<Footer />
+	<Footer call_url={'https://calendly.com/django-belcoda/30min'} />
 </main>

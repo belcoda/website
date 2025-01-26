@@ -1,5 +1,5 @@
 <script lang="ts">
-	const { documentation_url, call_url }: { documentation_url: string; call_url: string } = $props();
+	const { call_url }: { call_url: string } = $props();
 </script>
 
 <section class="relative overflow-hidden bg-gray-900 pt-24">
@@ -97,17 +97,13 @@
 					</h3>
 					<ul>
 						<li class="mb-5">
-							<a
-								class="font-medium leading-relaxed text-white hover:text-gray-200"
-								href="/about"
-								target="_blank">About</a
+							<a class="font-medium leading-relaxed text-white hover:text-gray-200" href="/about"
+								>About</a
 							>
 						</li>
 						<li class="mb-5">
-							<a
-								class="font-medium leading-relaxed text-white hover:text-gray-200"
-								href="/contact"
-								target="_blank">Contact</a
+							<a class="font-medium leading-relaxed text-white hover:text-gray-200" href="/contact"
+								>Contact</a
 							>
 						</li>
 						<li class="mb-5">
