@@ -137,14 +137,14 @@
 						<li class="mb-5">
 							<a
 								class="font-medium leading-relaxed text-white hover:text-gray-200"
-								href="https://github.com/belcoda/belcoda/blob/main/LICENSE"
+								href="https://github.com/belcoda/core/blob/main/LICENSE"
 								target="_blank">License</a
 							>
 						</li>
 						<li class="mb-5">
 							<a
 								class="font-medium leading-relaxed text-white hover:text-gray-200"
-								href="https://github.com/belcoda/belcoda/blob/main/CONTRIBUTING.md"
+								href="https://github.com/belcoda/core/blob/main/CONTRIBUTING.md"
 								target="_blank">Contributor Guidelines</a
 							>
 						</li>
