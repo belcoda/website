@@ -2,7 +2,14 @@
 	import Nav from '$lib/comps/Nav.svelte';
 	import { type Snippet } from 'svelte';
 	import { Component } from 'lucide-svelte';
-	import { CalendarDays, Database, ClipboardPenLine, Mail, Globe } from 'lucide-svelte/icons';
+	import {
+		CalendarDays,
+		Database,
+		ClipboardPenLine,
+		Mail,
+		Globe,
+		Users
+	} from 'lucide-svelte/icons';
 </script>
 
 <svelte:head>
@@ -32,6 +39,11 @@
 							Database,
 							'Community database',
 							'A secure, centralized hub for managing all contact and membership details, ensuring information is always up-to-date.'
+						)}
+						{@render detail(
+							Users,
+							'Groups',
+							'Organize members and volunteers into groups, integrate with existing WhatsApp groups and follow the conversation.'
 						)}
 						{@render detail(
 							CalendarDays,
