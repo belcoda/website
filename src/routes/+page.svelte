@@ -111,7 +111,7 @@
 
 							<div>
 								<strong class="font-semibold text-gray-900">Built in partnership:</strong>
-								We work directly with community leaders and social change advocates in low and middle-income
+								We work directly with community leaders and social change advocates in low- and middle-income
 								countries at every step of development and delivery.
 							</div>
 						</li>
